@@ -18,6 +18,19 @@ h1, h2, h3, h4, h5, h6, p, pre, ul {
 	line-height: 1.25;
 }
 
+h1 {
+	font-size: 2.5rem; 
+}
+h2 {
+	font-size: 2.25rem; 
+}
+h3 {
+	font-size: 2rem; 
+}
+h4 {
+	font-size: 1.75rem; 
+}
+
 ul {
 	padding-left: 20px;
 }
@@ -61,7 +74,7 @@ section:first-child {
 	--highlight-color: lightcyan; 
 	min-height: 100vh;
 	background-color: peachpuff;
-	padding: 0 20px;
+	padding: 20px;
 }
 
 
@@ -128,7 +141,6 @@ section:first-child {
 
 
 .special {
-	font-size: 2.5rem; 
 	font-weight: bolder;
 	color: var(--highlight-color);
 }
